@@ -1,0 +1,41 @@
+.description {
+  width: 37.5rem;
+  padding: 4rem;
+
+  &__product {
+    text-transform: uppercase;
+    letter-spacing: .8rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  &__title, &__price {
+    margin: 3rem 0;
+    font-family: 'Fraunces', serif;
+    font-size: 4rem;
+  }
+
+  &__title {
+    color: $color-dark-blue;
+    line-height: 1;
+  }
+
+  &__price {
+    color: $color-dark-cyan;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  &__old-price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    text-decoration: line-through;
+    color: $color-dark-grayish-blue;
+  }
+
+  &__text {
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+}

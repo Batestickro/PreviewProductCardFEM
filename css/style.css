@@ -1,0 +1,75 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+  color: hsl(228, 12%, 48%);
+  background-color: hsl(30, 38%, 92%);
+  display: grid;
+  place-content: center;
+}
+
+.content {
+  width: 75rem;
+  display: flex;
+  border-radius: 1.5rem;
+  background-color: white;
+}
+.content img {
+  border-radius: 1.5rem 0 0 1.5rem;
+  width: 37.5rem;
+}
+
+.description {
+  width: 37.5rem;
+  padding: 4rem;
+}
+.description__product {
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.description__title, .description__price {
+  margin: 3rem 0;
+  font-family: "Fraunces", serif;
+  font-size: 4rem;
+}
+.description__title {
+  color: hsl(212, 21%, 14%);
+  line-height: 1;
+}
+.description__price {
+  color: hsl(158, 36%, 37%);
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.description__old-price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.7rem;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+.description__text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=style.css.map */
