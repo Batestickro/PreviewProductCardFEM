@@ -1,21 +1,19 @@
 .content {
-  width: 75rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
   border-radius: 1.5rem;
   background-color: white;
 
   @media only screen and (max-width: 37.5em) {
-    margin: 2.5rem;
-    width: 90vw;
-    flex-direction: column;
+    grid-template-columns: auto;
   }
 
   &__img {
+    width: 100%;
     border-radius: 1.5rem 0 0 1.5rem;
-    width: 37.5rem;
 
   @media only screen and (max-width: 37.5em) {
-    width: 100%;
     border-radius: 1.5rem 1.5rem 0 0;
   }
   }

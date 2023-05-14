@@ -24,9 +24,12 @@ body {
   color: $color-dark-grayish-blue;
   background-color: $color-cream;
   display: grid;
+  grid-template-columns: 75rem;
   place-content: center;
 
-  @media only screen and (max-width: 47em) {
+  @media only screen and (max-width: 37.5em) {
     min-height: unset;
+    padding: 2.5rem;
+    grid-template-columns: auto;
   }
 }
