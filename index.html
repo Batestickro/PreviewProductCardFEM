@@ -12,7 +12,10 @@
 </head>
 <body>
   <main class="content">
-    <img class="content__img" src="images/image-product-desktop.jpg" alt="Perfume between leaves">
+    <picture>
+      <source media="(min-width: 37.5em)" srcset="images/image-product-desktop.jpg">
+      <img class="content__img" srcset="images/image-product-mobile.jpg">
+    </picture>
     <div class="description">
       <h2 class="description__product">Perfume</h2>
       <h1 class="description__title">Gabrielle Essence Eau De Parfum</h1>

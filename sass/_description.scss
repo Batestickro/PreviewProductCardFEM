@@ -2,6 +2,10 @@
   width: 37.5rem;
   padding: 4rem;
 
+  @media only screen and (max-width: 37.5em) {
+    width: auto;
+  }
+
   &__product {
     text-transform: uppercase;
     letter-spacing: .8rem;
