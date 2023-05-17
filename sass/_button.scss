@@ -6,8 +6,14 @@
   border-radius: 1rem;
   color: white;
   background-color: $color-dark-cyan;
+  transition: all .3s ease-in .25s;
 
   &__cart {
     margin-right: .5rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: hsl(158, 29%, 26%);
   }
 }

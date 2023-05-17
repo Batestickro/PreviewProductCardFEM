@@ -46,9 +46,14 @@ body {
   border-radius: 1rem;
   color: white;
   background-color: hsl(158, 36%, 37%);
+  transition: all 0.3s ease-in 0.25s;
 }
 .btn__cart {
   margin-right: 0.5rem;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: hsl(158, 29%, 26%);
 }
 
 .content {
